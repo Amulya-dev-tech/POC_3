@@ -1,15 +1,12 @@
 package com.example;
- 
+
 import org.junit.Test;
-import static org.junit.Assert.*;
- 
-public class AppTest 
-{
- 
+import static org.junit.Assert.assertTrue;
+
+public class AppTest {
+
     @Test
-    public void testApp() 
-  {
-        assertTrue(true);
+    public void testApp() {
+        assertTrue("The condition should be true", true);
     }
 }
- 
