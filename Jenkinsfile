@@ -4,7 +4,9 @@ pipeline {
         APP_NAME = "myapp"
         DOCKER_IMAGE = "myapp-image"
     }
- 
+    tools {
+    maven 'Maven-3.9.11'
+    }
     stages {
  
         stage('Git Clone') {
