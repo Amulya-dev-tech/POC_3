@@ -8,7 +8,7 @@ pipeline {
 
     tools {
         // Must match the name configured in Manage Jenkins → Global Tool Configuration → Maven
-        maven 'Maven-3.9.11'
+        maven 'maven-3.9.11'
         // If your build needs a specific JDK tool, add:
         // jdk 'jdk-17'  // Ensure tool exists, or remove this line
     }
