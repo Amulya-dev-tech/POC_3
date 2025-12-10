@@ -37,7 +37,7 @@ pipeline {
             steps {
                 sh '''
                     docker rm -f ${APP_NAME} || true
-                    docker run -d --name ${APP_NAME} -p 8087:8080 ${DOCKER_IMAGE}:latest
+                    docker run -d --name ${APP_NAME} -p 8081:8080 ${DOCKER_IMAGE}:latest
                 '''
             }
         }
